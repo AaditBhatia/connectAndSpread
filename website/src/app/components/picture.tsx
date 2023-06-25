@@ -2,7 +2,7 @@ import React from 'react';
 
 
 import Image from 'next/image'
-import mypic from '..//assets/mewatwomen.jpg'
+import mypic from '..//assets/mewatwomen2.jpg'
 const MyImage = (props) => {
   return (
     <Image
