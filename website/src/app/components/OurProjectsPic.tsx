@@ -12,4 +12,5 @@ const OurProjectsPic = (props) => {
     />
   )
 }
+
 export default OurProjectsPic
