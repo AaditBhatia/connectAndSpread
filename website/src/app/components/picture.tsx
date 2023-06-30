@@ -1,17 +1,23 @@
 import React from 'react';
 
+import mypic from '..//assets/doghelp.jpeg'
+import Image from 'next/image';
 
-import Image from 'next/image'
-import mypic from '..//assets/mewatwomen2.jpg'
 const MyImage = (props) => {
   return (
-    <Image
-      src={mypic}
-      alt="Picture of the author"
-      className="max-w-full max-h-full"
-      placeholder="blur" // placeholder="empty"
-      priority //lazy,eager
-    />
-  )
-}
+    <div className="w-full">
+      <Image
+        src={mypic}
+        alt="Picture of the author"
+        objectFit="cover"
+        width={1450}
+        height={500}
+        className="object-cover"
+        placeholder="blur"
+        priority
+      />
+    </div>
+  );
+};
+
 export default MyImage

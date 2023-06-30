@@ -1,10 +1,10 @@
 import React from 'react';
-import AboutUsPic from './AboutUsPic';
-const AboutUs: React.FC = () => {
+import OurProjectsPic from './OurProjectsPic';
+const OurProjects: React.FC = () => {
   return (
     <div className="flex h-screen ">
-      <div className="w-1/2 bg-gray-100 justify-center items-center">
-        <AboutUsPic/>
+      <div className="w-1/2 flex-grow bg-gray-100 justify-center items-center">
+        <OurProjectsPic/>
       </div>
       <div className="w-1/2 bg-white flex flex-col justify-center items-center">
         <div className="w-1/2">m
@@ -16,4 +16,4 @@ const AboutUs: React.FC = () => {
   );
 };
 
-export default AboutUs;
+export default OurProjects;

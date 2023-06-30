@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image'
 import mypic from '..//assets/mewatwomen2.jpg'
-const MyImage = (props) => {
+const OurProjectsPic = (props) => {
   return (
     <Image
       src={mypic}
@@ -12,4 +12,4 @@ const MyImage = (props) => {
     />
   )
 }
-export default MyImage
+export default OurProjectsPic
