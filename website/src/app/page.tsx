@@ -3,6 +3,7 @@ import HomePage from './components/Homepage'
 import OurProjects from './components/OurProjects'
 import AboutUs from './components/AboutUs'
 import Donate from './components/Donate'
+import Footer from './components/Footer'
 export default function Home() {
   return (
     <div>
@@ -10,10 +11,11 @@ export default function Home() {
        <AboutUs/>
        <OurProjects/>
        <Donate/>
-        <main className="flex min-h-screen flex-col items-center justify-between p-24">
+       <Footer/>
+        {/* <main className="flex min-h-screen flex-col items-center justify-between p-24">
         {/* Rest of the content */
-        }
-      </main>
+        } */
+      {/* </main> */}
     </div>
    
   )
