@@ -2,7 +2,7 @@ import React from 'react';
 import Logo from './logo';
 const Navbar: React.FC = () => {
   return (
-    <div className="fixed top-0 left-0 w-full bg-purple-500" style={{ height: '12vh' }} >
+    <div className="fixed top-0 left-0 w-full bg-red-100" style={{ height: '12vh' }} >
       <nav className="relative w-full h-15 bg-emarald-200">
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between">
@@ -15,6 +15,9 @@ const Navbar: React.FC = () => {
             </li>
             <li>
               <a className="text-black hover:text-gray-300" href="#">About</a>
+            </li>
+            <li>
+              <a className="text-black hover:text-gray-300" href="#">Our Projects</a>
             </li>
             <li>
               <a className="text-black hover:text-gray-300" href="#">Blog</a>
