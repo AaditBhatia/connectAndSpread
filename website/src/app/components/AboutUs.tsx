@@ -6,7 +6,7 @@ const AboutUs = () => {
       <div className="bg-pink-50 h-56">
         {/* Content for the text block */}
         <div className="container mx-auto py-8">
-          <h2 className="text-2xl font-bold">About us</h2>
+          <h2 className="text-2xl font-bold text-black">About us</h2>
           <p className="text-gray-500">2 sentence description or text here</p>
         </div>
       </div>

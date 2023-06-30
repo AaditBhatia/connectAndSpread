@@ -20,9 +20,6 @@ const Navbar: React.FC = () => {
               <a className="text-black hover:text-gray-300" href="#">Our Projects</a>
             </li>
             <li>
-              <a className="text-black hover:text-gray-300" href="#">Blog</a>
-            </li>
-            <li>
               <a className="text-black hover:text-gray-300" href="#">Donate</a>
             </li>
             <li>

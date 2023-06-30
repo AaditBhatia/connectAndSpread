@@ -1,6 +1,7 @@
 import React from 'react';
 import OurProjectsPic from './OurProjectsPic';
-const OurProjects: React.FC = () => {
+
+const Donate: React.FC = () => {
   return (
     <div className="flex h-2/3 ">
       <div className="w-1/2 flex-grow bg-gray-100 justify-center items-center">
@@ -16,4 +17,4 @@ const OurProjects: React.FC = () => {
   );
 };
 
-export default OurProjects;
+export default Donate;
