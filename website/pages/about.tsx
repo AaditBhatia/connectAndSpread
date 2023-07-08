@@ -1,10 +1,10 @@
 import Image from 'next/image'
-import HomePage from './components/Home/homepage'
-
+import AboutPage from '../src/app/components/About/aboutpage'
+import './global.css'
 export default function Home() {
   return (
     <div>
-       <HomePage />
+       <AboutPage />
 
         {/* <main className="flex min-h-screen flex-col items-center justify-between p-24">
         {/* Rest of the content */
