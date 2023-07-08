@@ -1,9 +1,6 @@
 import Image from 'next/image'
-import HomePage from './components/Homepage'
-import OurProjects from './components/OurProjects'
-import AboutUs from './components/AboutUs'
-import Donate from './components/Donate'
-import Footer from './components/Footer'
+import HomePage from './components/Home/homepage'
+
 export default function Home() {
   return (
     <div>

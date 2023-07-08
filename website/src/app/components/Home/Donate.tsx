@@ -1,5 +1,5 @@
 import React from 'react';
-import DonatePic from './DonatePic';
+import DonatePic from '../DonatePic';
 
 const Donate: React.FC = () => {
   return (
