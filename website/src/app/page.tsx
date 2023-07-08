@@ -8,10 +8,7 @@ export default function Home() {
   return (
     <div>
        <HomePage />
-       <AboutUs/>
-       <OurProjects/>
-       <Donate/>
-       <Footer/>
+
         {/* <main className="flex min-h-screen flex-col items-center justify-between p-24">
         {/* Rest of the content */
         } */
