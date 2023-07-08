@@ -3,7 +3,7 @@ import React from 'react';
 const AboutUs = () => {
   return (
     <div className="flex flex-col">
-      <div className="bg-pink-50 h-56">
+      <div className="bg-pink-50 h-64">
         {/* Content for the text block */}
         <div className="container mx-auto py-8">
           <h2 className="text-2xl font-bold text-black">About us</h2>
